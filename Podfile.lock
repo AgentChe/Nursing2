@@ -1,6 +1,12 @@
 PODS:
   - Alamofire (5.10.2)
   - Amplitude-iOS (4.10.0)
+  - FBAEMKit (18.0.0):
+    - FBSDKCoreKit_Basics (= 18.0.0)
+  - FBSDKCoreKit (18.0.0):
+    - FBAEMKit (= 18.0.0)
+    - FBSDKCoreKit_Basics (= 18.0.0)
+  - FBSDKCoreKit_Basics (18.0.0)
   - Kingfisher (8.3.1)
   - lottie-ios (4.5.1)
   - OtterScaleiOS (1.26)
@@ -15,6 +21,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Amplitude-iOS
+  - FBSDKCoreKit
   - Kingfisher
   - lottie-ios
   - OtterScaleiOS (from `https://github.com/AgentChe/OtterScaleiOS.git`)
@@ -26,6 +33,9 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - Amplitude-iOS
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
     - Kingfisher
     - lottie-ios
     - RxCocoa
@@ -45,6 +55,9 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
   Amplitude-iOS: 7d8cdc3408ba35c2e68368fc7c692cd104606b94
+  FBAEMKit: e34530df538b8eb8aeb53c35867715ba6c63ef0c
+  FBSDKCoreKit: d3f479a69127acebb1c6aad91c1a33907bcf6c2f
+  FBSDKCoreKit_Basics: 017b6dc2a1862024815a8229e75661e627ac1e29
   Kingfisher: 3204d23de16b5ea53541c44ca5a8efb55741dec3
   lottie-ios: 248b380fa1b97d18e792c37d90da7ab2aa0d6562
   OtterScaleiOS: 7797bb943c69572cd25a6118939ddb7c4684f03c
@@ -53,6 +66,6 @@ SPEC CHECKSUMS:
   RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
 
-PODFILE CHECKSUM: 40900e527a2546421ddb33068bb8471d0dd08bc7
+PODFILE CHECKSUM: c561870bcab37bb3b34e76a48e07aac6c15aa0d7
 
 COCOAPODS: 1.16.2

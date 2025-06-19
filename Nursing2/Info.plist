@@ -12,7 +12,21 @@
 				<string>examsnursing</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1023900379917250</string>
+			</array>
+		</dict>
 	</array>
+	<key>FacebookAppID</key>
+	<string>1023900379917250</string>
+	<key>FacebookClientToken</key>
+	<string>d895b79bed6d6f3ccd7b87f87d91abc0</string>
+	<key>FacebookDisplayName</key>
+	<string>Exams: Nursing</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Inter-Regular.ttf</string>
