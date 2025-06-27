@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import AppTrackingTransparency
 
 final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
@@ -19,18 +18,5 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = SplashViewController.make()
         window?.makeKeyAndVisible()
-    }
-    
-    func sceneDidBecomeActive(_ scene: UIScene) {
-        requestAuthorizationIfNeeded()
-    }
-}
-
-// MARK: Private
-private extension SceneDelegate {
-    func requestAuthorizationIfNeeded() {
-        guard ATTrackingManager.trackingAuthorizationStatus == .notDetermined else { return }
-        
-        ATTrackingManager.requestTrackingAuthorization(completionHandler: { _ in })
     }
 }

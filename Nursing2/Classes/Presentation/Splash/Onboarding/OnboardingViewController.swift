@@ -7,6 +7,7 @@
 
 import UIKit
 import RxSwift
+import AppTrackingTransparency
 
 final class OnboardingViewController: UIViewController {
     struct Constants {
@@ -40,6 +41,12 @@ final class OnboardingViewController: UIViewController {
         mainView.courseView.vc = self
         mainView.testView.vc = self
         mainView.planView.vc = self
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        ATTrackingManager.requestTrackingAuthorization(completionHandler: { _ in })
     }
 }
 
