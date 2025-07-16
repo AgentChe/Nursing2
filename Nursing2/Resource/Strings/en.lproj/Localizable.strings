@@ -109,10 +109,8 @@
 "Paygate.Lifetime.InTerms" = "In terms of  1  year";
 "Paygate.Lifetime.Discount" = "SAVE %i%%";
 "Paygate.Lifetime.Once" = "once";
-"Paygate.Subscription.Name1" = "3 days for free";
-"Paygate.Subscription.Name2" = "Quick prep";
-"Paygate.Subscription.Bottom1" = "After 3 day trial";
-"Paygate.Subscription.Bottom2" = "Trial is over";
+"Paygate.Subscription.Name" = "Monthly";
+"Paygate.Subscription.Bottom" = "Popular choice";
 "Paygate.Subscription.Period" = "month";
 "Paygate.CancelAnytime" = "Secured by the App Store. Cancel anytime.";
 "Paygate.TermsOfUse" = "Terms of Use";

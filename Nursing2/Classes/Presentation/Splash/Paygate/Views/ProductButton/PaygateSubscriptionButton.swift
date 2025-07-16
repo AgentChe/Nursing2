@@ -111,19 +111,14 @@ private extension PaygateSubscriptionButton {
 // MARK: Additional
 extension PaygateSubscriptionButton.Product {
     static func make(subscriptionIAPProduct: IAPProduct) -> PaygateSubscriptionButton.Product {
-        let usedProducts = OtterScale.shared
-            .getUsedProducts()
-            .map { $0.appleAppStore } ?? []
-        let withTrial = !usedProducts.contains(GlobalDefinitions.Paygate.subscription)
-        
         let price = Currency(iapProduct: subscriptionIAPProduct).formatted() ?? ""
         
         return PaygateSubscriptionButton.Product(
             iapProduct: subscriptionIAPProduct,
-            name: withTrial ? "Paygate.Subscription.Name1".localized : "Paygate.Subscription.Name2".localized,
+            name: "Paygate.Subscription.Name".localized,
             price: price,
             period: "Paygate.Subscription.Period".localized,
-            bottomInfo: withTrial ? "Paygate.Subscription.Bottom1".localized : "Paygate.Subscription.Bottom2".localized
+            bottomInfo: "Paygate.Subscription.Bottom".localized
         )
     }
 }
