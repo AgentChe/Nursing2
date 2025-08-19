@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E5518557C11591899FAE317 /* Pods_Nursing2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D10EF5CFD4A00714FC7B66D /* Pods_Nursing2.framework */; };
 		DE0CC6FE2E04740E00379021 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0CC6FD2E04740E00379021 /* FacebookManager.swift */; };
+		DE1562DA2E545AF100365C61 /* GetFinalTestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1562D92E545AF100365C61 /* GetFinalTestRequest.swift */; };
 		DEA355112DB62A4200D8D20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA355082DB62A4200D8D20A /* Assets.xcassets */; };
 		DEA355132DB62A4200D8D20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA3550B2DB62A4200D8D20A /* LaunchScreen.storyboard */; };
 		DEA356E72DB62B7300D8D20A /* Onboarding.Start.json in Resources */ = {isa = PBXBuildFile; fileRef = DEA355F72DB62B7300D8D20A /* Onboarding.Start.json */; };
@@ -355,6 +356,7 @@
 		87A28151F21651C93C48357F /* Pods-Nursing2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nursing2.debug.xcconfig"; path = "Target Support Files/Pods-Nursing2/Pods-Nursing2.debug.xcconfig"; sourceTree = "<group>"; };
 		A85CDAD15A89E87D3A63E843 /* Pods-Nursing2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nursing2.release.xcconfig"; path = "Target Support Files/Pods-Nursing2/Pods-Nursing2.release.xcconfig"; sourceTree = "<group>"; };
 		DE0CC6FD2E04740E00379021 /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
+		DE1562D92E545AF100365C61 /* GetFinalTestRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFinalTestRequest.swift; sourceTree = "<group>"; };
 		DEA354EF2DB62A3C00D8D20A /* Nursing2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nursing2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA355082DB62A4200D8D20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA355092DB62A4200D8D20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2014,6 +2016,7 @@
 				DEA356C02DB62B7300D8D20A /* GetTestRequest.swift */,
 				DEA356C12DB62B7300D8D20A /* GetTestResponseMapper.swift */,
 				DEA356C22DB62B7300D8D20A /* QuestionMapper.swift */,
+				DE1562D92E545AF100365C61 /* GetFinalTestRequest.swift */,
 			);
 			path = GetTest;
 			sourceTree = "<group>";
@@ -2446,6 +2449,7 @@
 				DEA357782DB62B7300D8D20A /* OStudyModeCell.swift in Sources */,
 				DEA357792DB62B7300D8D20A /* GetCourcesRequest.swift in Sources */,
 				DEA3577A2DB62B7300D8D20A /* OnboardingView.swift in Sources */,
+				DE1562DA2E545AF100365C61 /* GetFinalTestRequest.swift in Sources */,
 				DEA3577B2DB62B7300D8D20A /* GetFailedTestRequest.swift in Sources */,
 				DEA3577C2DB62B7300D8D20A /* PlanViewController.swift in Sources */,
 				DEA3577D2DB62B7300D8D20A /* PlanManager.swift in Sources */,
@@ -2663,7 +2667,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X939349SF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2680,7 +2684,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.9;
+				MARKETING_VERSION = 1.0.10;
 				PRODUCT_BUNDLE_IDENTIFIER = prep.exams.nursing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2703,7 +2707,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X939349SF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2720,7 +2724,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.9;
+				MARKETING_VERSION = 1.0.10;
 				PRODUCT_BUNDLE_IDENTIFIER = prep.exams.nursing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
