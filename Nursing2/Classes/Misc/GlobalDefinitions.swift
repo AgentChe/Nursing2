@@ -8,18 +8,15 @@
 import Foundation
 
 final class GlobalDefinitions {
-    static let domain = "https://bank.apps-by-konstantin.com"
+    static let domain = "https://bank.thinkaboutapps.com"
     static let apiKey = "6LbJ2meaKoYXjqUT"
     
     static let otterScaleHost = "https://api.korrekted.com"
     static let otterScaleApiKey = "x0Vtl8FjuRslNpqJ"
     
-    static let applicationTag = "EXAMS_NURSING"
-    static let amplitudeApiKey = "8b5138249711d65974423b54fed13562"
-    
-    static let termsOfServiceUrl = URL(string: "https://appslaunchpad.com/terms")!
-    static let privacyPolicyUrl = URL(string: "https://appslaunchpad.com/policy")!
-    static let contactUsUrl = URL(string: "https://appslaunchpad.com/contact")!
+    static let termsOfServiceUrl = URL(string: "https://thinkaboutapps.com/terms")!
+    static let privacyPolicyUrl = URL(string: "https://thinkaboutapps.com/policy")!
+    static let contactUsUrl = URL(string: "https://thinkaboutapps.com/contact")!
     
     enum Paygate {
         static let lifetime = "prep.exams.nursing.lifetime"
